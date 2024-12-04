@@ -1,0 +1,10 @@
+.header__link {
+    color: #2f80ed;
+    text-decoration: unset;
+}
+
+.header__link::after {
+    content: '→';
+    font-size: inherit;
+    margin-left: 4px;
+}
